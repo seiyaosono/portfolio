@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and local output
+node_modules/
+dist/
+coverage/
+*.log
